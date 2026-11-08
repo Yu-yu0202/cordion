@@ -1,0 +1,48 @@
+unstable_features = true
+
+# Rust edition
+edition = "2024"
+style_edition = "2024"
+
+# Basic formatting
+max_width = 100
+hard_tabs = false
+tab_spaces = 4
+newline_style = "Unix"
+
+# Width
+fn_call_width = 80
+chain_width = 80
+array_width = 80
+struct_lit_width = 40
+
+# Ordering
+reorder_imports = true
+reorder_modules = true
+
+# Syntax
+use_field_init_shorthand = true
+use_try_shorthand = true
+fn_params_layout = "Tall"
+
+# Nightly: Imports
+group_imports = "StdExternalCrate"
+imports_granularity = "Module"
+
+# Nightly: Documentation
+format_code_in_doc_comments = true
+doc_comment_code_block_width = 90
+
+# Nightly: Macros
+format_macro_matchers = true
+
+# Nightly: Match
+match_block_trailing_comma = true
+
+# Nightly: Misc
+where_single_line = false
+reorder_impl_items = false
+
+# Preserve comments (MPL license header)
+wrap_comments = false
+normalize_comments = false
